@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://dl4sj2ilqlogo"]
+
+[ext_resource type="Script" path="res://scenes/ui/menus/options menu/options_menu.gd" id="1_n5c5q"]
+
+[node name="OptionsMenu" type="CanvasLayer"]
+script = ExtResource("1_n5c5q")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://d15jrurv3hpew"]
+
+[ext_resource type="Script" path="res://scenes/ui/components/better label/better_label.gd" id="1_8s57n"]
+
+[node name="BetterLabel" type="RichTextLabel"]
+script = ExtResource("1_8s57n")
